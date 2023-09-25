@@ -39,7 +39,7 @@
             // 
             // label1
             // 
-            this.label1.Size = new System.Drawing.Size(273, 27);
+            this.label1.Size = new System.Drawing.Size(344, 34);
             this.label1.Text = "Staff add or modify";
             // 
             // txtName
@@ -67,7 +67,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(47, 168);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(39, 12);
+            this.label2.Size = new System.Drawing.Size(43, 15);
             this.label2.TabIndex = 5;
             this.label2.Text = "Name";
             // 
@@ -76,7 +76,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(294, 168);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(41, 12);
+            this.label3.Size = new System.Drawing.Size(50, 15);
             this.label3.TabIndex = 3;
             this.label3.Text = "Phone";
             // 
@@ -105,7 +105,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(47, 267);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(30, 12);
+            this.label4.Size = new System.Drawing.Size(37, 15);
             this.label4.TabIndex = 4;
             this.label4.Text = "Role";
             // 
@@ -137,13 +137,13 @@
             this.label5.ForeColor = System.Drawing.Color.Tomato;
             this.label5.Location = new System.Drawing.Point(295, 227);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(205, 12);
+            this.label5.Size = new System.Drawing.Size(257, 15);
             this.label5.TabIndex = 3;
             this.label5.Text = "하이픈(-) 없이 숫자만 입력해주세요.";
             // 
             // frmStaffAdd
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(542, 505);
             this.Controls.Add(this.cbRole);
