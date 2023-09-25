@@ -1,7 +1,5 @@
-# Store-management
-# 스토어 관리프로그램
-
-# BY 최유성(C#, MSsql, GUNA2 UI Framework, Crystal Reports)
+# Store-management(스토어 관리프로그램)
+> BY 최유성(C#, MSsql, GUNA2 UI Framework, Crystal Reports)
 
 
 설치: 
