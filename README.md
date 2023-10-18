@@ -55,26 +55,16 @@ https://github.com/yschii/Store-management/blob/main/MainClass.cs
 https://esoog.tistory.com/entry/C-Crystal-Reports-%EC%82%AC%EC%9A%A9
 </br>
 
-## 6. 트러블 슈팅
-### 6.1. SQL 쿼리 매개변수 '@' 와 축자 문자열 리터럴 '@' 사이의 혼
+## 5. 트러블 슈팅
+### 5.1. SQL 쿼리 매개변수 '@' 와 축자 문자열 리터럴 '@' 사이의 혼
 - Windows Forms는 단일 스레드 모델을 사용하며, UI 컨트롤에 대한 변경은 UI 스레드에서만 안전하게 수행해야 함. 이 코드에서는 UI 업데이트를 수행하기 위해 Invoke를 사용: https://github.com/yschii/Dbgo/blob/main/3.%20%ED%99%95%EC%9E%A51(%ED%8F%AC%EC%9D%B8%ED%8A%B8%20%EC%A0%9C%EB%8F%84%20%ED%82%A4%EC%98%A4%EC%8A%A4%ED%81%AC)/1.%20%ED%82%A4%EC%98%A4%EC%8A%A4%ED%81%AC%20%EC%A3%BC%EB%B0%A9(%EC%84%9C%EB%B2%84)/MainForm.cs
 </br>
 
-### 6.2. 원격 DB 구축
-- 내부망을 사용하는 환경에서 원격 DB를 구축하기 위해 RDS 서비스를 구매하여 사용 : https://github.com/yschii/Dbgo/blob/main/2.%20php%2C%20mysql/logs.php
-- https://aws.amazon.com/ko/rds/
-</br>
-
-## 7. 회고 
+## 6. 회고 
 - SQL 쿼리 매개변수 '@' 와 축자 문자열 리터럴 '@' 비교 : https://esoog.tistory.com/entry/C-%EA%B8%B0%ED%98%B8-%EC%82%AC%EC%9A%A9
   </br>
 
-
-
-
-
-
-
+## 7. 프로그램 실행 화면
 # 로그인 화면
 ![image](https://github.com/yschii/Store-management/assets/135096712/46492b5f-f5e7-4729-b884-b66ec09a45a3)
 # 대시보드
@@ -91,5 +81,4 @@ https://esoog.tistory.com/entry/C-Crystal-Reports-%EC%82%AC%EC%9A%A9
 ![image](https://github.com/yschii/Store-management/assets/135096712/805ef84e-1526-4e17-926d-9f098994ff1c)
 # 보고서 메뉴 폼
 ![image](https://github.com/yschii/Store-management/assets/135096712/872ee501-d08c-4924-af6a-96d78725d9ff)
-# 보고서 폼
-![image](https://github.com/yschii/Store-management/assets/135096712/06bd25ab-f84b-40c1-98d2-caef2d4178de)
+  </br>
