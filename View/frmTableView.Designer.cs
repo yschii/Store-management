@@ -44,7 +44,14 @@
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("굴림", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label1.Size = new System.Drawing.Size(65, 16);
+            this.label1.Size = new System.Drawing.Size(64, 16);
+            // 
+            // label2
+            // 
+            this.label2.Font = new System.Drawing.Font("굴림", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.label2.Location = new System.Drawing.Point(46, 35);
+            this.label2.Size = new System.Drawing.Size(158, 27);
+            this.label2.Text = "Tables List";
             // 
             // btnAdd
             // 
@@ -55,13 +62,6 @@
             this.btnAdd.Image = global::RM.Properties.Resources.Iconos_de_Mas_Forma_Circular_para_descargar_gratis;
             this.btnAdd.ImageFlip = Guna.UI2.WinForms.Enums.FlipOrientation.Normal;
             this.btnAdd.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            // 
-            // label2
-            // 
-            this.label2.Font = new System.Drawing.Font("굴림", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.label2.Location = new System.Drawing.Point(46, 35);
-            this.label2.Size = new System.Drawing.Size(158, 27);
-            this.label2.Text = "Tables List";
             // 
             // guna2DataGridView1
             // 

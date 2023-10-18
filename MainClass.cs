@@ -14,21 +14,19 @@ namespace RM
 {
     internal class MainClass
     {
-        public static readonly string con_string = "Server=ESOOG\\SQLEXPRESS;Database=RM;User id=rm_manager;Password=1234";
+        public static readonly string con_string = 
+            "Server=ESOOG\\SQLEXPRESS;Database=RM;User id=rm_manager;Password=1234";
         public static SqlConnection con = new SqlConnection(con_string);
 
 
         public static bool IsValidUser(string user, string pass)
         {
             bool isValid = false;
-            // if (con.State == ConnectionState.Open) { con.Close(); }
-            // else if (con.State == ConnectionState.Closed) { con.Close(); }
             string qry = @"select * from users where username = '" + user + "' and upass='" + pass + "' ;";
             SqlCommand cmd = new SqlCommand(qry, con);
             DataTable dt = new DataTable();
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             da.Fill(dt);
-
 
             if (dt.Rows.Count > 0)
             {
@@ -49,7 +47,8 @@ namespace RM
         {
             int res = 0;
 
-            try {
+            try
+            {
                 SqlCommand cmd = new SqlCommand(qry, con);
                 cmd.CommandType = CommandType.Text;
 
@@ -61,19 +60,18 @@ namespace RM
                 if (con.State == ConnectionState.Closed) { con.Open(); }
                 res = cmd.ExecuteNonQuery();
                 if (con.State == ConnectionState.Open) { con.Close(); }
-            } catch(Exception e) {
+            }
+            catch (Exception e)
+            {
                 MessageBox.Show(e.ToString());
                 con.Close();
             }
-
             return res;
         }
 
         public static void LoadData(string qry, DataGridView gv, ListBox lb)
         {
-
             gv.CellFormatting += new DataGridViewCellFormattingEventHandler(gv_CellFormatting);
-
 
             try
             {
@@ -83,7 +81,7 @@ namespace RM
                 DataTable dt = new DataTable();
                 da.Fill(dt);
 
-                for (int i =0; i< lb.Items.Count; i++)
+                for (int i = 0; i < lb.Items.Count; i++)
                 {
                     string colNam1 = ((DataGridViewColumn)lb.Items[i]).Name;
                     gv.Columns[colNam1].DataPropertyName = dt.Columns[i].ToString();
@@ -111,7 +109,7 @@ namespace RM
             }
         }
 
-        public static  void BlurBackgroud(Form Model)
+        public static void BlurBackgroud(Form Model)
         {
             Form Background = new Form();
             using (Model)

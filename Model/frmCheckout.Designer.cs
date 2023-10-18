@@ -39,7 +39,7 @@
             // 
             // label1
             // 
-            this.label1.Size = new System.Drawing.Size(184, 34);
+            this.label1.Size = new System.Drawing.Size(147, 27);
             this.label1.Text = "Check out";
             // 
             // guna2ControlBox1
@@ -78,7 +78,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(28, 159);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(75, 13);
+            this.label2.Size = new System.Drawing.Size(80, 15);
             this.label2.TabIndex = 7;
             this.label2.Text = "BIll Amount";
             // 
@@ -87,7 +87,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(245, 159);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(123, 13);
+            this.label3.Size = new System.Drawing.Size(130, 15);
             this.label3.TabIndex = 7;
             this.label3.Text = "Payment Received";
             // 
@@ -117,7 +117,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(28, 249);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(56, 13);
+            this.label4.Size = new System.Drawing.Size(57, 15);
             this.label4.TabIndex = 7;
             this.label4.Text = "Change";
             // 
@@ -144,7 +144,7 @@
             // 
             // frmCheckout
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.txtChange);

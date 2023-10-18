@@ -42,7 +42,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(56, 198);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(39, 12);
+            this.label2.Size = new System.Drawing.Size(43, 15);
             this.label2.TabIndex = 1;
             this.label2.Text = "Name";
             // 
@@ -68,7 +68,7 @@
             // 
             // frmCategoryAdd
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(471, 478);
             this.Controls.Add(this.txtName);

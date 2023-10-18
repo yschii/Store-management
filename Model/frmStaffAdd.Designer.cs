@@ -39,7 +39,7 @@
             // 
             // label1
             // 
-            this.label1.Size = new System.Drawing.Size(344, 34);
+            this.label1.Size = new System.Drawing.Size(273, 27);
             this.label1.Text = "Staff add or modify";
             // 
             // txtName

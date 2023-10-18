@@ -30,7 +30,6 @@ namespace RM.View
             ListBox lb = new ListBox();
             lb.Items.Add(dgvid);
             lb.Items.Add(dgvName);
-
             MainClass.LoadData(qry, guna2DataGridView1, lb);
         }
 
