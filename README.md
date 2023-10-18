@@ -2,7 +2,8 @@
 >스토어 매니지먼트 시스템(POS)
 ></br>
 >![image](https://github.com/yschii/Store-management/assets/135096712/cb0bbab5-2d7b-4d0e-8f13-3125ba6a2b84)
->설치: 
+></br>
+설치: 
 1. Mssql설치 및 DB환경 구축: https://esoog.tistory.com/entry/C-SQL-server-%EC%82%AC%EC%9A%A9
 2. dataset 폴더 내 SM.bak 파일을 MSSMS의 데이터베이스에서 복구 시켜준다.
 3. Main.cs 파일에서 con_string 변수의 DB서버 계정 설정을 변경시켜준다.
