@@ -65,7 +65,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(31, 250);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(66, 15);
+            this.label4.Size = new System.Drawing.Size(56, 12);
             this.label4.TabIndex = 10;
             this.label4.Text = "Category";
             // 
@@ -94,7 +94,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(278, 151);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(40, 15);
+            this.label3.Size = new System.Drawing.Size(34, 12);
             this.label3.TabIndex = 9;
             this.label3.Text = "Price";
             // 
@@ -123,7 +123,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(31, 151);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(43, 15);
+            this.label2.Size = new System.Drawing.Size(39, 12);
             this.label2.TabIndex = 11;
             this.label2.Text = "Name";
             // 
@@ -170,7 +170,7 @@
             // 
             // frmProductAdd
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(776, 597);
             this.Controls.Add(this.btnExit);
